@@ -1,0 +1,14 @@
+git push origin <branch_1>:<branch_2>   // To push <branch_1> into <branch_2>
+git switch <branch_name>                // To switch branch (master,Blue,Ice,KK,Kampang)
+git pull                                // To update current branch to most recent
+
+Step-by-Step:
+    To pull from master branch to your local branch:    // Retrieving up-to-date code.
+        1. git push origin master:<your_branch_name>
+        2. git pull
+    To push your local branch into master branch:       // Updating main (master) branch
+        1. *Be sure that your local branch is push
+        2. git push origin <your_branch_name>:master
+
+
+Most recent PUSH: 10/9/2024 11:50~ By Blue
